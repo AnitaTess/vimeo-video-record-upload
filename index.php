@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 use Vimeo\Vimeo;
 // Styles & Fonts
 function dot_vimeo_scripts() {
-    wp_enqueue_style( 'dot-vimeo-css', plugins_url( '/css/style.css' , __FILE__ ) );
+    wp_enqueue_style( 'dot-vimeo-css', plugins_url( '/style.css' , __FILE__ ) );
     wp_enqueue_script( 'dot-vimeo-js', plugins_url( '/app.js' , __FILE__ ), array( 'jquery' )  );
     
   }
